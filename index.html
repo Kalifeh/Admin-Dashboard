@@ -4,67 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
     <title>Admin-DashBoard</title>
+    
 </head>
 <body>
     <div class="container">
 
         <nav class="nav">
             <div class="logo">
-                <img src="" alt="" class="logo-image">
+                <i class="fa-brands fa-flipboard" class="logo-icon"></i>
                 <span class="logo-text">Dashboard</span>
             </div>
             <ul class="icon-list">
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-house"></i>
                     <span class="list-icon-text">Home</span>
                 </li>
+                </a>
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-address-card"></i>
                     <span class="list-icon-text">Profile</span>
                 </li>
+                </a>
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-message"></i>
                     <span class="list-icon-text">Messages</span>
                 </li>
+                </a>
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-clock"></i>
                     <span class="list-icon-text">History</span>
                 </li>
+                </a>
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-list-check"></i>
                     <span class="list-icon-text">Tasks</span>
                 </li>
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-people-line"></i>
                     <span class="list-icon-text">Communities</span>
                 </li>
+                </a>
             </ul>
             <ul class="second-icon-list">
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-gear"></i>
                     <span class="list-icon-text">Settings</span>
                 </li>
+                </a>
+                <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-question"></i>
                     <span class="list-icon-text">Support</span>
                 </li>
+                 </a>
+                 <a href="">
                 <li class="icon-item">
-                    <img src="" alt="" class="icon">
+                    <i class="fa-solid fa-shield-halved"></i>
                     <span class="list-icon-text">Privacy</span>
                 </li>
+                </a>    
             </ul>
         </nav>
 
         <header class="header">
             <div class="header-top-section">
                 <div class="logo">
-                    <img src="" alt="" class="logo-image">
-                    <input type="text" name="" id="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" id="" class="search-bar">
                 </div>
                 <div class="mini-profile-section">
-                    <img src="" alt="" class="notification-icon">
-                    <img src="" alt="" class="mini-profile-photo">
+                    <i class="fa-solid fa-bell"></i>
+                    <img src="profile-picture.jfif" alt="" class="mini-profile-photo">
                     <span class="mini-profile-name">Morgan Oakley</span>
                 </div>
             </div>
@@ -73,15 +95,17 @@
                     <img src="" alt="" class="">
                 </div>
                 <div class="header-bottom-section">
-                    <div class="profile-section">
-                        <img src="" alt="" class="profile-photo">
-                        <span class="hi-there">Hi there,</span>
-                        <span class="profile-name">Morgan Oakley(@morgan)</span>
+                    <div class="profile-data">
+                        <img src="profile-picture.jfif" alt="" class="profile-photo">
+                        <div class="user-name">
+                            <p class="hi-there">Hi there,</p>
+                            <p class="profile-name">Morgan Oakley (@morgan)</p>
+                        </div>
                     </div>
                     <div class="buttons">
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
+                        <button class="button">New</button>
+                        <button class="button">Upload</button>
+                        <button class="button">Share</button>
                     </div>
                 </div>
             </div>
@@ -89,16 +113,16 @@
         </header>
 
         <div class="content">
-            <div class="proyects-section">
+            <div class="proyect-section">
                 <div class="card">
                     <div class="card-content">
                         <h3>Super Cool Project</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus perspiciatis at a delectus tenetur dignissimos aut optio</p>
                     </div>
                     <div class="card-icons">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                 </div>
 
@@ -108,9 +132,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed praesentium eveniet aliquam perspiciatis minus nostrum quaerat, omnis, corporis soluta, quae quidem veritatis? Iste</p>
                     </div>
                     <div class="card-icons">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                 </div>
 
@@ -120,9 +144,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
                     </div>
                     <div class="card-icons">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                 </div>
 
@@ -132,9 +156,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perferendis unde voluptate voluptatum nostrum debitis quasi asperiores suscipit esse quisquam, magni aperiam possimus, assumenda odio labore</p>
                     </div>
                     <div class="card-icons">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                 </div>
 
@@ -144,9 +168,9 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda accusamus labore magni non quas aperiam rem impedit nobis</p>
                     </div>
                     <div class="card-icons">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                 </div>
 
@@ -157,9 +181,9 @@
                         </p>
                     </div>
                     <div class="card-icons">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                 </div>
                 
